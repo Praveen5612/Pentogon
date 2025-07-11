@@ -23,6 +23,7 @@ def booking(aadhar, dl, vehicle, price, days):
         print('Your booking is cancelled!!!')
 print('Thank you for choosing us!')
 
+
 # Main program
 print('What do you want to rent?')
 print('1. Two Wheeler \n2. Four Wheeler')
