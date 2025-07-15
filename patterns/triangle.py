@@ -127,12 +127,9 @@
 #     print(' ' * (n - i) + '*' * (2 * i - 1))
 # This code prints an inverted right-angled triangle pattern with asterisks aligned to the right.
 
-n = int(input("Enter a number: "))
-for i in range(1, n+1):
-    print(' '*(n-i) + '*' * (2*i -1))
-for j in range(n-1, 0, -1):
-    print(' ' * (n - j) + '*' * (2 * j - 1))
+# n = int(input("Enter a number: "))
+# for i in range(1, n+1):
+#     print(' '*(n-i) + '*' * (2*i -1))
+# for j in range(n-1, 0, -1):
+#     print(' ' * (n - j) + '*' * (2 * j - 1))
 # This code prints a pyramid pattern with asterisks, where each row has an increasing number of asterisks centered in the output.
-# The first loop prints the upper half of the pyramid, and the second loop prints the lower half of the pyramid in reverse order.
-# The number of asterisks in each row is determined by the current row index, and spaces are added to center the asterisks in each row.
-# The output will form a complete pyramid shape with asterisks.
