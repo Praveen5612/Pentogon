@@ -133,3 +133,4 @@
 # for j in range(n-1, 0, -1):
 #     print(' ' * (n - j) + '*' * (2 * j - 1))
 # This code prints a pyramid pattern with asterisks, where each row has an increasing number of asterisks centered in the output.
+
