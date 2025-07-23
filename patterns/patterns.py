@@ -39,7 +39,7 @@
 #             print(' ',end=' ')
 #     print()
     
-#to print numbers square
+#to print numbers hallow square
 # n = int(input())
 # for i in range(1,n+1):
 #     for j in range(1,n+1):
@@ -63,5 +63,42 @@
 #         n+=1
 #     n=1
 #     print()
-    
+# n=64 
+# for i in range(1,5,1):
+#     for j in range(1,5,1):
+#         print(chr(n),end =' ')
+#         n+=1
+#     print()
 
+
+# triangle patterns
+#Right angled triangle
+# for i in range(1,6,1):
+#     for j in range(1,i+1,1):
+#         print(chr(64+i),end=' ')
+#     print()
+
+
+#Inverse Right angled triangle
+# for i in range(1,6,1):
+#     for j in range(1,(6-i)+1,1):
+#         print('* ' ,end=' ')
+#     print()
+
+# reverse triange
+# n=6
+# for i in range(1,n,1):
+#     for j in range(1,n-i,1):
+#         print('  ',end ='')
+#     for j in range(1,i+1,1):
+#         print('* ',end='')
+#     print()
+
+#inverse reverse triangle
+n=6
+for i in range(1,n,1):
+    for j in range(1,i,1):
+        print('  ',end ='')
+    for j in range(1,n-i+1,1):
+        print('* ',end='')
+    print()

@@ -1,8 +1,9 @@
-# n = int(input("Enter the number : "))
-# for i in range(n):
-#     for j in range(i+1):
-#         print("*", end=' ')
-#     print()
+n = int(input("Enter the number : "))
+for i in range(n):
+    for j in range(i+1):
+        if(i==1 or i==n ):
+            print("*", end=' ')
+    print()
 
 # This code prints a right-angled triangle pattern using asterisks.
 
